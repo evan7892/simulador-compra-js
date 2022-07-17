@@ -63,7 +63,7 @@ function quitar(opcion2) {
                 break
             }
             alert(`Usted tiene una cantidad de ${productoA} del producto seleccionado, cuantas desea sacar`)
-            newCantidad = parseInt(prompt("ingrese canditdad"))
+            newCantidad = parseInt(prompt("ingrese cantidad"))
             control = productoA
             productoA = productoA - newCantidad
             while (productoA <= -1) {
@@ -79,7 +79,7 @@ function quitar(opcion2) {
                 break
             }
             alert(`Usted tiene una cantidad de ${productoB} del producto seleccionado, cuantas desea sacar`)
-            newCantidad = parseInt(prompt("ingrese canditdad"))
+            newCantidad = parseInt(prompt("ingrese cantidad"))
             control = productoB
             productoA = productoB - newCantidad
             while (productoB <= -1) {
@@ -95,13 +95,13 @@ function quitar(opcion2) {
                 break
             }
             alert(`Usted tiene una cantidad de ${productoC} del producto seleccionado, cuantas desea sacar`)
-            newCantidad = parseInt(prompt("ingrese canditdad"))
+            newCantidad = parseInt(prompt("ingrese cantidad"))
             control = productoC
             productoC = productoC - newCantidad
             while (productoC <= -1) {
                 alert(`No puede quitar a cantidad ingresada, no se puede sacar más de ${control}`)
                 productoC = control
-                newCantidad = parseInt(prompt("por favor vuelva a ingresar la canditdad que desea sacar"))
+                newCantidad = parseInt(prompt("por favor vuelva a ingresar la cantidad que desea sacar"))
                 productoC = productoC - newCantidad
             }
             break
@@ -111,13 +111,13 @@ function quitar(opcion2) {
                 break
             }
             alert(`Usted tiene una cantidad de ${productoD} del producto seleccionado, cuantas desea sacar`)
-            newCantidad = parseInt(prompt("ingrese canditdad"))
+            newCantidad = parseInt(prompt("ingrese cantidad"))
             control = productoD
             productoD = productoD - newCantidad
             while (productoD <= -1) {
                 alert(`No puede quitar a cantidad ingresada, no se puede sacar más de ${control}`)
                 productoD = control
-                newCantidad = parseInt(prompt("por favor vuelva a ingresar la canditdad que desea sacar"))
+                newCantidad = parseInt(prompt("por favor vuelva a ingresar la cantidad que desea sacar"))
                 productoD = productoD - newCantidad
             }
             break
